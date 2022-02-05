@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   place-items: center;
 }
-.dropdownContainer p{
+.dropdownContainer .sort{
   color: #989898;
   font-size: 14px;
   font-weight: 400;

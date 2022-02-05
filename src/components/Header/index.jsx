@@ -48,7 +48,7 @@ const Header = (props) => {
     <div className={style.wrapper}>
     <SearchInput handleSearch={handleSearch} search={props.filter.search}/>
       <div className={style.dropdownContainer}>
-        <p>Sort By:</p>
+        <p  className={style.sort}>Sort By:</p>
         <Dropdown
           label={"Category"}
           options={category}

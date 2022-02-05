@@ -7,13 +7,6 @@ body {
   font-family: 'Circular Std', sans-serif;
 }
 
-body {
- 
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
- 
-
-}
-.clear {
+/* .clear {
   clear: both;
-}
+} */

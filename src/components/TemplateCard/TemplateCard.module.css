@@ -1,8 +1,12 @@
 .wrapper{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
- 
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    align-items: center;
+    justify-content: center;
+    place-items: center;
     gap: 40px;
 }
 .loader{

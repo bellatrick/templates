@@ -13,8 +13,11 @@
   
   }
   .container input::placeholder{
-    font-size: 13px;
+    font-size: 14px;
     color: #8F8B8B;
+  font-weight: 500;
+   
+   
   }
   .search_icon{
   position: absolute;

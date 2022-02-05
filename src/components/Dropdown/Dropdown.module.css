@@ -8,12 +8,15 @@
       position: absolute;
       background: white;
       color: #8F8B8B;
-      bottom: 14px;
-      left: 20px;
+      bottom: 20px;
+      left: 22px;
       letter-spacing: 0.01em;
       padding: 1px;
+      font-weight: 400;
+      letter-spacing: 0.03em;
       font-size: 10px;
   }
+ 
   .select_wrapper::after {
 
     content: url('../../assets/invert.svg');
@@ -45,10 +48,14 @@
     padding-left: 25px;
     width: 100%;
     font-size: 14px;
-    font-weight: 500;
+    /* font-weight:inherit; */
     line-height: 18px;
+    font-style: normal;
     color: #3F3F3F;
+    font-family: 'Circular Std', sans-serif ;
+    font-weight:400 !important;
   }
+
   .select:focus {
     color: black;
   }
@@ -56,11 +63,8 @@
   .select::-ms-expand {
     display: none;
   }
-option:hover{
-    padding: 5px;
-    background-color: #FFF4EA !important;
-    box-shadow: 0 0 10px 10px #FFF4EA inset;
-}
+ 
+
 
   @media (max-width:780px) {
     .select_wrapper{

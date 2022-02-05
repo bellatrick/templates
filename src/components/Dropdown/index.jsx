@@ -7,7 +7,7 @@ const Dropdown = ({ label, options, onChange, action, value }) => {
       <div className="container">
         <form>
           <div className={Style.select_wrapper}>
-            <p>{label}</p>
+            <p className={Style.label}>{label}</p>
             <select
              data-testid="select"
               className={Style.select}
