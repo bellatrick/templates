@@ -43,8 +43,8 @@ background: #F9F9F9;
 }
 @media (max-width:780px) {
   .card{
-      width: 70vw;
-      margin: 0px 80px;
+      width: 90vw;
+    
   }
 }
 
