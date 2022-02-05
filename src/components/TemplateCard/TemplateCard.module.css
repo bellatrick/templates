@@ -17,8 +17,8 @@
     justify-content: center;
 }
 .loader img{
-    height: 320px;
-    width: 320px;
+    height: 220px;
+    width: 220px;
 }
 .empty{
     height: 50vh;
