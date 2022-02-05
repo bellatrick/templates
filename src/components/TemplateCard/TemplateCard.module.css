@@ -39,5 +39,10 @@ font-size: 40px;
   .wrapper{
       justify-content: space-evenly;
      
-  }}
+  }
+  .loader img{
+    height: 170px;
+    width: 170px;
+}
+}
 
